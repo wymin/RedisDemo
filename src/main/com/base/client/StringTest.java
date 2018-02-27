@@ -4,9 +4,12 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 /**
- * String类型数据demo
+ * <h3>String数据类型demo</h3>
+ * method:
+ * <br>1.set(key,value)
+ * <br>2.get(key)
+ * <br>3.del(key)
  * @Author: wymin
- * @Date: 11:24 2018/2/27
  */
 public class StringTest {
 
