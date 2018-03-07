@@ -6,9 +6,9 @@ import redis.clients.jedis.JedisPoolConfig;
 /**
  * <h3>String数据类型demo</h3>
  * method:
- * <br>1.set(key,value)
- * <br>2.get(key)
- * <br>3.del(key)
+ * <br>1.set(key,value)给key添加值
+ * <br>2.get(key)根据key获取值
+ * <br>3.del(key)删除删除key
  * @Author: wymin
  */
 public class StringTest {
